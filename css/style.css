@@ -1,0 +1,36 @@
+/* All common CSS files should start from here */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* All common CSS files should end from here */
+
+.main_material {
+    height: 400px;
+    width: 640px;
+    margin: 150px auto;
+    grid-template-columns: repeat(8, 1fr);
+    border: 2px solid black;
+}
+
+.one {
+    height: 40px;
+    width: 10px;
+    background-color: #d2691e;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+}
+
+.two {
+    height: 40px;
+    width: 10px;
+    background-color: #9a9a9a;
+    float: left;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    justify-content: center;
+}
